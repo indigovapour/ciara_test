@@ -1,0 +1,77 @@
+#social-buttons button { 
+  color: white; 
+} 
+.btn-twitter { 
+  background-color: #00acee; 
+  border-color: #009ad5; 
+} 
+.btn-facebook { 
+  background-color: #4868ac; 
+  border-color: #314776; 
+} 
+.btn-pinterest { 
+  background-color: #b62f26; 
+  border-color: #b62f26; 
+}
+.jumbotron { 
+  min-height: 500px; 
+  background-image: url(images/painttube.png); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+#mission {
+	background-color: rgba(32, 35, 41, 0.9);
+	color: #ddd;
+}
+ 
+.nav {
+	color: #101010;
+}
+
+body { padding-top: 70px; }
+
+
+.jumbotron label {
+color: indigo;
+}
+.jumbotron h1 {
+font-family: 'Lobster', cursive;
+color: #551A8B;
+
+}
+
+.jumbotron h2 {
+  font-family: 'Cabin', sans-serif;
+  color: #551A8B;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.row {
+  display: inline;
+}
+#about {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(32, 35, 41, 0.9);
+  
+}
+
+#ws {
+  text-align: left;
+}
+
+.container h3 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container #services {
+  background-color: white;
+}
+
+#center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
