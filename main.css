@@ -1,42 +1,118 @@
-#social-buttons button { 
-  color: white; 
+#social-buttons { 
+  text-align: center; 
 } 
-.btn-twitter { 
-  background-color: #00acee; 
-  border-color: #009ad5; 
-} 
-.btn-facebook { 
-  background-color: #4868ac; 
-  border-color: #314776; 
-} 
-.btn-pinterest { 
-  background-color: #b62f26; 
-  border-color: #b62f26; 
-}
-.jumbotron { 
-  min-height: 500px; 
+
+.jumbotron1 { 
+  min-height: 400px; 
   background-image: url(images/painttube.png); 
   background-size: cover; 
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
 }
-#mission {
-	background-color: rgba(32, 35, 41, 0.9);
-	color: #ddd;
-}
+
+
+.jumbotron1 h1 { 
+  font-weight: bold;
+  color: rgba(32, 35, 41, 0.9) transparent;
+  font-size: 120px;
+  font-family: 'Bree Serif', serif;
+  }
  
-.nav {
-	color: #101010;
+.jumbotronAbout { 
+  min-height: 200px; 
+  background-image: url(images/painttube.png); 
+  background-size: cover; 
+  background-attachment: fixed;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotronAbout h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  color: #333;
+  }
+
+  .jumbotronServices { 
+  min-height: 200px; 
+  background-image: url(images/painttube.png); 
+  background-size: cover; 
+  background-attachment: fixed;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotronServices h1 {
+  font-size: 100px;
+  font-family: 'Bree Serif', serif;
+  color: #333;
+  } 
+.jumbotronServices h2 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.jumbotronBreakerServices { 
+  background-image: url(images/painttube.png); 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100%; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.jumbotronBreakerArt { 
+  min-height: 500px; 
+  background-image: url(images/painttube.png); 
+  background-attachment: fixed;
+  background-size: cover; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.jumbotronBreaker { 
+  min-height: 500px; 
+  background-image: url(images/painttube.png); 
+  background-attachment: fixed;
+  background-size: cover; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.jumbotronButtons { 
+  min-height: 200px; 
+  background-image: url(images/painttube.png); 
+  background-attachment: fixed;
+  background-size: cover; 
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+  }
+
+
+.page-headerArt {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 body { padding-top: 70px; }
 
-
-.jumbotron label {
-color: indigo;
-}
-.jumbotron h1 {
-font-family: 'Lobster', cursive;
-color: #551A8B;
 
 }
 
@@ -46,8 +122,7 @@ color: #551A8B;
   font-weight: bold;
   margin-bottom: 1em;
 }
-.row {
-  display: inline;
+
 }
 #about {
   text-align: left;
@@ -57,21 +132,33 @@ color: #551A8B;
   
 }
 
-#ws {
-  text-align: left;
-}
-
 .container h3 {
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
+  font-color: black;
 }
-.container #services {
-  background-color: white;
-}
+
 
 #center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.containerf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav bar-wrapper {
+  position: relative;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: −90px;
+}
+.nav bar .brand,
+.nav bar .nav > li > a {
+ padding: 15px 20px;
 }
